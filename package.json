@@ -1,0 +1,16 @@
+{
+  "name": "blockping",
+  "version": "1.0.0",
+  "description": "EVM Activity Bot — continuously deploys and interacts with smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "solc": "^0.8.28"
+  }
+}

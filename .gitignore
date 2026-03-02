@@ -1,0 +1,6 @@
+node_modules/
+compiled/
+.env
+wallets.json
+txLogs.json
+bot.log
